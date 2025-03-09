@@ -1,37 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aurelia - AI-Powered To-Do App
 
-## Getting Started
+Aurelia is an **AI-driven to-do app** that helps users **transform their goals into actionable SMART tasks**. It guides users through an interactive process of **goal refinement**, ensuring tasks are **Specific, Measurable, Achievable, Relevant, and Time-bound (SMART)**. The app also provides analytics to track productivity and improve goal completion rates.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### ✅ AI-Powered Task Refinement
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Converts user input into **SMART** goals.
+- Asks **clarifying questions** if details are missing.
+- Suggests **more realistic alternatives** for overly ambitious tasks.
+- Confirms the final **actionable goal** before saving.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 📊 Productivity Tracking & Analytics
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Logs all interactions and task completions.
+- Displays **user progress and trends** over time.
+- Provides insights into productivity and goal-setting habits.
 
-## Learn More
+### 🔗 Integration & Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API routes, Express.js, or Encore (Go)
+- **Database:** PostgreSQL (Supabase) or MongoDB
+- **Authentication:** Supabase Auth
+- **State Management:** Redux with TypeScript & Zod validation
+- **Hosting & Deployment:** Dockerized setup, Vercel, Netlify, or AWS
+- **Payments (Future Feature):** Stripe for premium features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔄 Workflow & Modularity
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Interactive Refinement:** AI assists users in refining their tasks before adding them.
+- **Data Persistence:** Stores user inputs, tasks, and analytics for performance tracking.
+- **Extensible Design:** Modular structure for future feature expansion.
 
-## Deploy on Vercel
+## 📌 How It Works
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **User inputs a goal.**  
+   Example: _"I want to learn AI programming."_
+2. **AI refines the goal by asking questions.**  
+   Example: _"Which AI programming language? What’s your timeline?"_
+3. **User finalizes a SMART goal.**  
+   Example: _"Complete an online TensorFlow course in 3 months, studying 5 hours per week."_
+4. **Goal is saved & tracked for progress.**  
+   The app provides **reminders, progress tracking, and insights**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# aurelia
+## 💡 Future Roadmap
+
+- **AI-powered voice interactions** for task creation.
+- **Collaboration features** for teams and shared goals.
+- **Mobile app version** for on-the-go task management.
+- **Integration with external tools** (Google Calendar, Notion, etc.).
+- **Gamification elements** for motivation and consistency.
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use, modify, and contribute.
+
+---
+
+### 🚧 Status: **In Development**
+
+Aurelia is currently in **active development**. Contributions and feedback are welcome!
+
+🔧 **Built & maintained by Cuong**  
+For questions, contact **cuong.shodan@gmail.com**
